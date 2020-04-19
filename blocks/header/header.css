@@ -2,13 +2,12 @@
 @import url(./__nav/header__nav.css);
 @import url(./__list/header__list.css);
 @import url(./__lang-link/header__lang-link.css);
-@import url(./__lang-link/header__lang-link_active.css);
+@import url(./__lang-link/_active/header__lang-link_active.css);
 
 .header {
     display: flex;
     justify-content: space-between;
-    width: 984px;
-    height: 44px;
-    margin: auto;
     padding-top: 34px;
+    padding-left: 148px;
+    padding-right: 148px;
   }
