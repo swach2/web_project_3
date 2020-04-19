@@ -1,0 +1,7 @@
+.places__column {
+  margin-right: 40px;
+}
+
+.places__column:last-of-type {
+  margin-right: 0;
+}
