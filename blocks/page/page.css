@@ -3,5 +3,9 @@
 }
 
 @media screen and (min-width:1280px) {
-  
+  .page {
+    position: relative;
+    width: 1280px;
+    height: 7074px;
+  }
 }

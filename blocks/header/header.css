@@ -1,0 +1,9 @@
+@import url(./__lang/header__lang.css);
+@import url(./__lang-link/header__lang-link.css);
+
+.header {
+    width: 984px;
+    height: 44px;
+    margin: auto;
+    padding-top: 34px;
+  }
