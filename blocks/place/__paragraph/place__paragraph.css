@@ -1,0 +1,23 @@
+.place__paragraph {
+  margin: 0;
+  width: 484px;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 167% */
+  padding-top: 24px;
+}
+
+.place__paragraph:first-of-type {
+  padding-top: 0;
+}
+
+.place:nth-of-type(1) .place__paragraph:nth-child(n+2) {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.place:nth-of-type(3) .place__paragraph:nth-child(2) {
+  font-size: 16px;
+  line-height: 169.4%;
+/* or 27px */
+}

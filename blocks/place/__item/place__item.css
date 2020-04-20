@@ -1,0 +1,14 @@
+.place__item {
+  flex-direction: column;
+  display: flex;
+  /* margin-top: 80px; */
+  justify-content: flex-end;
+}
+
+.place__item:last-of-type {
+  justify-content: flex-start;
+}
+
+.place__item:nth-child(3) {
+  justify-content: flex-start;
+}
