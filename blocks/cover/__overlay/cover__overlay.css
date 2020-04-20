@@ -4,4 +4,9 @@
   height: 100%;
   position: relative;
   z-index: 1;
+  transition: background-color .2s ease-in-out;
+}
+
+.cover__overlay:hover {
+  background-color: rgba(42, 44, 47, 0.8);
 }
