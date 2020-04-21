@@ -1,7 +1,6 @@
 .place__item {
   flex-direction: column;
   display: flex;
-  /* margin-top: 80px; */
   justify-content: flex-end;
 }
 
