@@ -11,7 +11,7 @@
   line-height: 1.62;
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:767px) {
   .intro__text {
     line-height: 1.25;
   }
