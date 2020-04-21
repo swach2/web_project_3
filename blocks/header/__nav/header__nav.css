@@ -2,3 +2,9 @@
   float: right;
   padding-top: 12px;
 }
+
+@media screen and (max-width:320px) {
+  .header__nav {
+    padding-top: 10px;
+  }
+}

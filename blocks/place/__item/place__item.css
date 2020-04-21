@@ -11,3 +11,9 @@
 .place__item:nth-child(3) {
   justify-content: flex-start;
 }
+
+@media screen and (max-width:320px) {
+  .place__item:nth-child(2) {
+    display: none;
+  }
+}

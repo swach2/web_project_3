@@ -18,3 +18,11 @@
     padding-top: 153px;
   }
 }
+
+@media screen and (max-width:320px) {
+  .cover__title {
+    padding-top: 51px;
+    font-size: 32px;
+    line-height: 1.09;
+  }
+}
