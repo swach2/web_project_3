@@ -8,3 +8,10 @@
   margin: auto;
   padding-top: 58px;
 }
+
+@media screen and (max-width:1024px) {
+  .lead {
+    width: 928px;
+    padding-top: 50px;
+  }
+}

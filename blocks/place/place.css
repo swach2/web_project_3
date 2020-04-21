@@ -17,3 +17,10 @@
 .place:first-of-type {
   padding-top: 0;
 }
+
+@media screen and (max-width:1024px) {
+  .place {
+    grid-template-columns: 440px 456px;
+    grid-gap: 48px 32px;
+  }
+}

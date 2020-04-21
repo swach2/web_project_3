@@ -8,3 +8,9 @@
   padding-top: 92px;
   margin-left: 148px;
 }
+
+@media screen and (max-width:1024px) {
+  .intro {
+    margin-left: 48px;
+  }
+}
