@@ -14,3 +14,12 @@
     margin-left: 48px;
   }
 }
+
+@media screen and (max-width:768px) {
+  .intro {
+    padding-top: 88px;
+    margin-left: 24px;
+    margin-right: 24px;
+    width: auto;
+  }
+}

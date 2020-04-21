@@ -6,3 +6,15 @@
   margin: auto;
   padding-top: 283px;
 }
+
+@media screen and (max-width:1024px) {
+  .cover__title {
+    padding-top: 233px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .cover__title {
+    padding-top: 153px;
+  }
+}
