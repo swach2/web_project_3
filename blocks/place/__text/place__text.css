@@ -1,16 +1,20 @@
 .place__text {
   margin-left: 40px;
+  width: calc(100% - 460px - 40px);
+  padding-top: 48px;
 }
 
 @media screen and (max-width:1279px) {
   .place__text {
     margin-left: 32px;
+    width: calc(100% - 440px - 32px);
   }
 }
 
 @media screen and (max-width:1023px) {
   .place__text {
     margin-left: 28px;
+    width: calc(100% - 340px - 28px);
   }
 }
 
@@ -19,5 +23,6 @@
     margin-left: 16px;
     margin-right: 16px;
     padding-top: 32px;
+    width: 100%;
   }
 }
